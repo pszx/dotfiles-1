@@ -27,7 +27,6 @@ package() {
 }
 
 depends=(
-    # base
     'base'
     'dash'
     'linux'
@@ -224,10 +223,6 @@ depends=(
     'yapf'
     'bpython'
 
-    # go dev
-    'go'
-    'go-tools'
-
     # js dev
     'yarn'
 
@@ -255,12 +250,7 @@ depends=(
     'goimapnotify'
     'w3m'
 
-    # chats
-    'wire-desktop'
-    'riot-desktop'
-
     # browsers
-    'qutebrowser'
     'chromium-widevine'
     'pdfjs'
     'python-tldextract'
@@ -286,14 +276,11 @@ depends=(
     'mpv-mpris'
     'youtube-dl'
     'strace'
-    'virtualbox'
-    'virtualbox-host-modules-arch'
     'code'
     'wofi'
     'v4l2loopback-dkms'
 
     # work
-    'azure-cli'
     'freerdp'
     'k9s'
     'kubectl'
